@@ -1,0 +1,9 @@
+.env.dev
+.env.prod
+node_modules/
+logs/
+docker-logs/
+redis-data/
+docker-npm/
+.env.development
+.env.production
