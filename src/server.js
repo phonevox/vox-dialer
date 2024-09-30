@@ -11,6 +11,16 @@ const ROUTES = require(path.resolve('src/express/routing'));
 const { setLogPrefix } = require(path.resolve('src/express/middlewares'));
 const express = require('express');
 
+
+
+
+
+
+
+
+
+
+
 // Iniciando o Express e suas rotas.
 const app = express();
 app.use('/', setLogPrefix, ROUTES)

@@ -18,10 +18,10 @@
     "development": "NODE_ENV=development npm-run-all -p dev:*",
     "dev:server": "NODE_ENV=development node src/server.js",
     "dev:queue": "NODE_ENV=development node src/queue.js",
-
     "prod": "npm run production",
     "production": "NODE_ENV=production npm-run-all -p prod:*",
     "prod:server": "NODE_ENV=production node src/server.js",
-    "prod:queue": "NODE_ENV=production node src/queue.js"
+    "prod:queue": "NODE_ENV=production node src/queue.js",
+    "test": "NODE_ENV=development node dev/src/test.js"
   }
 }
